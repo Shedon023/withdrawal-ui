@@ -12,23 +12,11 @@ export const AccountDetails = () => {
         <Box display='flex' alignItems='center' gap={1}>
           <Typography variant='body2'>Сохранить реквизиты</Typography>
           <Checkbox
-            icon={
-              <Box
-                sx={{
-                  width: 20,
-                  height: 20,
-                  borderRadius: 1,
-                  border: "2px solid #FAD700",
-                  backgroundColor: "#FAD700",
-                }}
-              />
-            }
             checkedIcon={
               <Box
                 sx={{
-                  width: 20,
-                  height: 20,
                   border: "2px solid #FFDD2F",
+                  borderRadius: "20%",
                   backgroundColor: "#FFDD2F",
                   display: "flex",
                   alignItems: "center",
