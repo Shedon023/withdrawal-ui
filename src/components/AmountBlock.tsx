@@ -31,7 +31,7 @@ export const AmountBlock = ({
 
     <Card className={`AmountBlock ${bordered ? "bordered" : ""}`}>
       <CardContent className='AmountBlock-content'>
-        <Typography variant='body1' className='AmountBlock-currency'>
+        <Typography variant='body2' sx={{ textAlign: "center", fontSize: 12 }}>
           {currency}
         </Typography>
 
@@ -48,9 +48,7 @@ export const AmountBlock = ({
             <Remove />
           </IconButton>
 
-          <Typography variant='h6' className='AmountBlock-value'>
-            {value}
-          </Typography>
+          <Typography variant='body1'>{value}</Typography>
 
           <IconButton size='small' className='AmountBlock-button AmountBlock-button-plus'>
             <Add />

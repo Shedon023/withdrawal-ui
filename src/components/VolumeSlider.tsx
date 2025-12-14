@@ -46,16 +46,15 @@ export const VolumeSlider: React.FC = () => {
               key={index}
               variant='caption'
               sx={{
-                fontSize: "11px",
+                fontSize: "12px",
                 color: "#666666",
-                fontWeight: 400,
                 position: "absolute",
                 left: `${segmentCenter}%`,
                 top: "0px",
                 transform: "translateX(-50%)",
                 whiteSpace: "nowrap",
                 textAlign: "center",
-                lineHeight: 1,
+                lineHeight: 0,
               }}>
               {segment.label}
             </Typography>
