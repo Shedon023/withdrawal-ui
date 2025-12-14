@@ -34,7 +34,7 @@ export const WithdrawalMethod = () => {
               <Typography variant='body2'>1 USDT = 61.55 RUR</Typography>
             </Box>
           </Box>
-          <ExpandMoreIcon />
+          <ExpandMoreIcon sx={{ fontSize: "35px" }} />
         </CardContent>
       </Card>
     </>
